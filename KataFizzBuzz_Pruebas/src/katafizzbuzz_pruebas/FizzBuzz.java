@@ -12,7 +12,13 @@ package katafizzbuzz_pruebas;
 public class FizzBuzz {
 
     public String getFizzBuzz(int n) {
-        return String.valueOf(n);
+        String result="";
+        if(n==3){
+            result="Fizz";
+        }else{
+            result=String.valueOf(n);
+        }      
+        return result;
     }
     
     

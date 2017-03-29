@@ -31,4 +31,15 @@ public class FizzBuzzTest {
         String expected = "2";
         assertEquals(expected, result);
     }
+    
+    @Test
+    public void testFizzBuzzThreeReturnsFizz() {
+        FizzBuzz fb = new FizzBuzz();
+        String result = fb.getFizzBuzz(3);        
+        String expected = "Fizz";
+        assertEquals(expected, result);
+    }
+    
+    
+    
 }
