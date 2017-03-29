@@ -88,4 +88,11 @@ public class FizzBuzzTest {
         assertEquals(expected, result);
     }
     
+    @Test
+    public void testFizzBuzzMultiplesFivesReturnsBuzzBuzz() {
+        FizzBuzz fb = new FizzBuzz();
+        String result = fb.getFizzBuzz(552);        
+        String expected = "BuzzBuzz";
+        assertEquals(expected, result);
+    }
 }
