@@ -12,7 +12,7 @@ package katafizzbuzz_pruebas;
 public class FizzBuzz {
 
     public String getFizzBuzz(int n) {
-        return "1";
+        return String.valueOf(n);
     }
     
     
