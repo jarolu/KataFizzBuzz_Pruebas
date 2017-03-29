@@ -69,6 +69,13 @@ public class FizzBuzzTest {
         FizzBuzz fb = new FizzBuzz();
         String result = fb.getFizzBuzz(15);        
         String expected = "FizzBuzz";
+    }
+
+    @Test
+    public void testFizzBuzzInclueThreeReturnsFizz() {
+        FizzBuzz fb = new FizzBuzz();
+        String result = fb.getFizzBuzz(13);        
+        String expected = "Fizz";
         assertEquals(expected, result);
     }
 }
